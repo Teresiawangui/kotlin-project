@@ -16,7 +16,7 @@ class ThirdBirdActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityThirdBirdBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.btnNext4.setOnClickListener{
+        binding.btnNext5.setOnClickListener{
             val intent = Intent(this,FourthBirdActivity::class.java)
             startActivity(intent)
         }
@@ -24,7 +24,7 @@ class ThirdBirdActivity : AppCompatActivity() {
             .get()
             .load("https://images.unsplash.com/photo-1632700601323-4f6892433c52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNpbmdpbmclMjBiaXJkfGVufDB8fDB8fHww")
             .resize(500,500)
-            .into(binding.imageView7)
+            .into(binding.imageView)
 
     }
 }

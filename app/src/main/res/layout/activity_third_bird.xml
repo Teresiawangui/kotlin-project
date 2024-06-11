@@ -17,20 +17,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/left_arrow" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/rightarrow"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="595dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/rightarrow"
-        tools:layout_editor_absoluteY="314dp" />
 
     <ImageView
         android:id="@+id/btnNext5"
@@ -43,16 +29,15 @@
         app:srcCompat="@drawable/right" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="fitEnd"
-        app:layout_constraintBottom_toTopOf="@+id/guideline3"
-        app:srcCompat="@drawable/jame"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
         tools:layout_editor_absoluteX="0dp" />
 
     <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
+        android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"

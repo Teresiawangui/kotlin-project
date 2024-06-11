@@ -31,7 +31,6 @@
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/vivek"
         tools:layout_editor_absoluteX="0dp" />
 
     <androidx.constraintlayout.widget.Guideline
