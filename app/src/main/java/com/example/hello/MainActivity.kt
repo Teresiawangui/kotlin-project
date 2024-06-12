@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         Picasso
             .get()
             .load("https://images.unsplash.com/photo-1596117803277-6142bb2ae8ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aHVtbWluZ2JpcmR8ZW58MHx8MHx8fDA%3D")
-            .resize(500,500)
+            .resize(1200,1200)
             .into(binding.imageView5)
     }
 }

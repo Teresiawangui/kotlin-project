@@ -16,14 +16,18 @@ class ThirdBirdActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityThirdBirdBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.btnNext5.setOnClickListener{
-            val intent = Intent(this,FourthBirdActivity::class.java)
+        binding.btnNext5.setOnClickListener {
+            val intent = Intent(this, FourthBirdActivity::class.java)
             startActivity(intent)
+        }
+        binding.btnNext4.setOnClickListener {
+            val intent = Intent(this,SecondBirdActivity::class.java)
+            finish()
         }
         Picasso
             .get()
             .load("https://images.unsplash.com/photo-1632700601323-4f6892433c52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNpbmdpbmclMjBiaXJkfGVufDB8fDB8fHww")
-            .resize(500,500)
+            .resize(1200,1200)
             .into(binding.imageView)
 
     }

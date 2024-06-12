@@ -23,7 +23,7 @@ class FifthBirdActivity : AppCompatActivity() {
         Picasso
             .get()
             .load("https://images.unsplash.com/photo-1528504343232-8c080345d074?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2luZ2luZyUyMGJpcmR8ZW58MHx8MHx8fDA%3D")
-            .resize(500,500)
+            .resize(1200,1200)
             .into(binding.imageView4)
 
     }

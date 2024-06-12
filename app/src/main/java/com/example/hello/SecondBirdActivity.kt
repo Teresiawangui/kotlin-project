@@ -20,11 +20,14 @@ class SecondBirdActivity : AppCompatActivity() {
             val intent = Intent(this, ThirdBirdActivity::class.java)
             startActivity(intent)
         }
+        binding.btnNext2.setOnClickListener {
+            val intent =  Intent(this,MainActivity::class.java)
+            finish()
         Picasso
             .get()
-            .load("https://images.unsplash.com/photo-1552727451-6f5671e14d83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNpbmdpbmclMjBiaXJkfGVufDB8fDB8fHww")
-            .resize(500, 500)
+            .load("https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QklSRHxlbnwwfHwwfHx8MA%3D%3D")
+            .resize(1200, 1200)
             .into(binding.imageView9)
 
     }
-}
+}}
